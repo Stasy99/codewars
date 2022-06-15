@@ -1,0 +1,8 @@
+import java.util.*;
+public class Solution{
+  public static int largestPairSum(int[] a){ 
+        Arrays.sort(a);
+      int sum = a[a.length -1]+a[a.length-2];
+      return sum;
+    }
+  }
