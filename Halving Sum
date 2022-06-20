@@ -1,0 +1,11 @@
+public class HalvingSum {
+  int halvingSum(int n) {
+    int i=1;
+   int Sum=n;
+    while (n/Math.pow(2,i)>0) {
+     Sum+=n/Math.pow(2,i);
+      i++;  
+    }
+    return Sum;
+  }
+}
